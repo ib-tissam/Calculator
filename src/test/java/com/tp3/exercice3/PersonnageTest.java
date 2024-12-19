@@ -18,4 +18,10 @@ public class PersonnageTest {
         String result=P.tourner(1);
         assertEquals("EST",result,"we be "+"EST"+" but we "+result);
     }
+    @Test
+    void tourn_test2(){
+        Personnage P= new Personnage();
+        String result=P.tourner(2);
+        assertEquals("SUD",result,"we be "+"SUD"+" but we "+result);
+    }
 }

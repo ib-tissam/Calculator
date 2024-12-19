@@ -17,4 +17,10 @@ public class ArabicRomanNumeralTest {
         String result=A.convert(1);
         assertEquals("I",result,"we be "+"I"+" but we be "+result);
     }
+    @Test
+    void convert_test2(){
+        ArabicRomanNumerals A=new ArabicRomanNumerals();
+        String result=A.convert(5);
+        assertEquals("V",result,"we be "+"V"+" but we be "+result);
+    }
 }

@@ -23,4 +23,10 @@ public class ArabicRomanNumeralTest {
         String result=A.convert(5);
         assertEquals("V",result,"we be "+"V"+" but we be "+result);
     }
+    @Test
+    void convert_test3(){
+        ArabicRomanNumerals A=new ArabicRomanNumerals();
+        String result=A.convert(10);
+        assertEquals("X",result,"we be "+"X"+" but we be "+result);
+    }
 }

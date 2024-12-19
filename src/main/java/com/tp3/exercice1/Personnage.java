@@ -11,6 +11,10 @@ public class Personnage {
             ch="SUD";
             return ch;
         }
+        else if(nbr%4==3){
+            ch="OUEST";
+            return ch;
+        }
         return ch;
     }
 }
